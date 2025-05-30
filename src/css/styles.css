@@ -13,7 +13,8 @@
 /* Sections style */
 @import url('./header.css');
 @import url('./features.css');
+@import url('./domination.css');
 @import url('./faq.css');
 @import url('./back-link.css');
-@import url('./domination.css');
+
 @import url('./footer.css');
