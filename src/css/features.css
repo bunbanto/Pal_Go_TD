@@ -1,3 +1,7 @@
+.features {
+  display: flex;
+  flex-direction: column;
+}
 .swiper {
   position: relative;
   width: 100%;
