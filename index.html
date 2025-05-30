@@ -4,9 +4,11 @@
     <meta charset="UTF-8" />
     <link rel="icon" type="image/svg+xml" href="/Pal_Go_TD/favicon.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Vanilla App Template</title>
+    <title>Pal-Go-TD</title>
     <script type="module" crossorigin src="/Pal_Go_TD/index.js"></script>
-    <link rel="stylesheet" crossorigin href="/Pal_Go_TD/assets/styles-r6SaaQ-x.css">
+    <link rel="modulepreload" crossorigin href="/Pal_Go_TD/assets/vendor-dX9NE-Sr.js">
+    <link rel="stylesheet" crossorigin href="/Pal_Go_TD/assets/vendor-Be9b3THL.css">
+    <link rel="stylesheet" crossorigin href="/Pal_Go_TD/assets/styles-Dy2feOFG.css">
   </head>
   <body>
     <header class="header">
@@ -20,15 +22,21 @@
         </a>
         <ul class="nav-list">
           <li class="nav-item">
-            <a class="nav-link {=$highlight-act}" href="./page-2.html">Page 2</a>
+            <a class="nav-link {=$highlight-act}" href="./page-2.html"
+              >Page 2</a
+            >
           </li>
           <li class="nav-item">
-            <a class="nav-link {=$highlight-curr}" href="./page-3.html">Page 3</a>
+            <a class="nav-link {=$highlight-curr}" href="./page-3.html"
+              >Page 3</a
+            >
           </li>
         </ul>
       </nav>
       <div class="header__burger-wrapper">
-        <button type="button" class="burger-btn" data-action="open">Open menu</button>
+        <button type="button" class="burger-btn" data-action="open">
+          Open menu
+        </button>
         <div class="burger-menu" data-visible="close">
           <ul>
             <li><a href="#">link-1</a></li>
@@ -36,87 +44,488 @@
             <li><a href="#">link-3</a></li>
             <li><a href="#">link-4</a></li>
           </ul>
-          <button type="button" class="btn-close" data-action="close">close</button>
+          <button type="button" class="btn-close" data-action="close">
+            close
+          </button>
         </div>
       </div>
     </div>
   </div>
 </header>
 
+
     <main>
-      <!-- Loads the specified .html file -->
-      <section class="vite-promo">
+      <section class="features">
+    <div class="container features-body">
+      <div class="features-header">
+        <div class="img-title">
+          <img
+            src="/Pal_Go_TD/assets/gamepad-D7O5wvAC.png"
+            width="76px"
+            max-height="76px"
+            alt="Gamepad Icon"
+            class="gamepad-icon"
+          />
+        </div>
+        <div class="titles">
+        <h2 class="title_features">Game Features</h2>
+        <h3 class="sub-features">Everything That Makes Pal Go Legendary</h3>
+          </div>
+      </div>
+           <div class="div-swiper">
+          <div class="btn-prev">
+            <button class="swiper-button-prev custom-btn" aria-label="Previous slide">
+              <svg
+                width="20"
+                height="35"
+                viewBox="0 0 20 35"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M18 1.5L2 17.5L18 33.5"
+                  stroke="url(#paint0_linear_140_1514)"
+                  stroke-width="3"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                />
+                <defs>
+                  <linearGradient
+                    id="paint0_linear_140_1514"
+                    x1="10"
+                    y1="1.5"
+                    x2="10"
+                    y2="33.5"
+                    gradientUnits="userSpaceOnUse"
+                  >
+                    <stop stop-color="#10DEB1" />
+                    <stop offset="1" stop-color="white" />
+                  </linearGradient>
+                </defs>
+              </svg>
+            </button>
+           </div>
+             <div class="swiper">
+                     <div class="swiper features-swiper">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide">
+              <img src="../img/pic1.png" width="264px" alt="Image1" />
+              <p class="features-text">
+                <span class="span_features">🔥 Crash-Resistant Strategy:</span> A
+                new twist where your defense can literally collapse!
+              </p>
+            </div>
+            <div class="swiper-slide">
+              <img src="../img/pic2.png" alt="Image2" />
+              <p class="features-text">
+                <span class="span_features">⚔️ Merge-to-Rank Mechanics:</span>
+                Combine and enhance troops on the fly
+              </p>
+            </div>
+            <div class="swiper-slide">
+              <img src="../img/pic3.png" alt="Image3" />
+              <p class="features-text">
+                <span class="span_features">🏹 PvP Arena Skirmishes:</span>
+                Real-time strategy meets fast-paced combat
+              </p>
+            </div>
+            <div class="swiper-slide">
+              <img src="../img/pic4.png" alt="Image4" />
+              <p class="features-text">
+                <span class="span_features">🏰 Tower Building:</span> Tactical
+                base-building and reinforcement
+              </p>
+            </div>
+            <div class="swiper-slide">
+              <img src="../img/pic5.png" alt="Image5" />
+              <p class="features-text">
+                <span class="span_features">🧠 Hero Customization:</span> Choose
+                your champion and unlock abilities
+              </p>
+            </div>
+            <div class="swiper-slide">
+              <img src="../img/pic6.png" alt="Image6" />
+              <p class="features-text">
+                <span class="span_features">📈 Live Leaderboards:</span> Show your
+                rank and climb to global domination
+              </p>
+            </div>
+            <div class="swiper-slide">
+              <img src="../img/pic7.png" alt="Image7" />
+              <p class="features-text">
+                <span class="span_features">🎯 Adaptive AI:</span> No two battles
+                feel the same
+              </p>
+            </div>
+          </div>
+              </div>
+                   </div>
+            <div class="btn-next">
+              <button class="swiper-button-next custom-btn" aria-label="Next slide">
+                <svg
+                      width="20"
+                      height="36"
+                      viewBox="0 0 20 36"
+                      fill="none"
+                      xmlns="http://www.w3.org/2000/svg"
+                >
+                      <path
+              d="M2 2L18 18L1.99999 34"
+              stroke="url(#paint0_linear_140_1044)"
+              stroke-width="3"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+                      />
+                      <defs>
+              <linearGradient
+                id="paint0_linear_140_1044"
+                x1="10"
+                y1="2"
+                x2="10"
+                y2="34"
+                gradientUnits="userSpaceOnUse"
+              >
+                <stop stop-color="#10DEB1" />
+                <stop offset="1" stop-color="white" />
+              </linearGradient>
+                      </defs>
+                </svg>
+              </button>
+            </div>
+        </div>
+  </section>
+  
+      <section class="faq">
   <div class="container">
-    <div class="vite-promo-thumb">
-      <a
-        class="vite-promo-link"
-        href="https://vitejs.dev/"
-        target="_blank"
-        rel="noopener noreferrer"
-        aria-label="Link to Vite official website"
-        title="Vite.js  build tool"
-      >
-        <!-- Path to images as from index.html file -->
+    <div class="div-faq">
+      <div class="div-title">
         <img
-          class="pic"
-          src="/Pal_Go_TD/assets/vite-logo-9o_aqrTe.png"
-          alt="Vite logo"
-          width="640"
-          height="640"
+          src="../img/1.png"
+          width="49px"
+          max-height="49px"
+          alt="?"
+          class="faqicon"
         />
-      </a>
+      </div>
+      <h2 class="title-faq">FAQ</h2>
     </div>
-    <h1 class="main-title">
-      <span class="main-title-gradient">Vite</span>
-      Template by
-      <a
-        class="main-title-link"
-        href="https://github.com/goitacademy/vanilla-app-template"
-        target="_blank"
-        rel="noopener noreferrer"
-      >
-        GoIT
-      </a>
-    </h1>
+    <div class="accordion-item">
+      <div class="accordion-title">
+        Is Pal Go really free to play?
+        <span class="accordion-icon">
+          <svg
+            width="12"
+            height="12"
+            viewBox="0 0 12 12"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M10.5 6H6M6 6H1.5M6 6V1.5M6 6V10.5"
+              stroke="#EFBB31"
+              stroke-width="1.5"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+            />
+          </svg>
+        </span>
+      </div>
+      <div class="accordion-content">
+        Yes! You can enjoy the entire core gameplay for free. Optional in-app
+        purchases offer cosmetics, boosts, and extra rewards, but are not
+        required to progress.
+      </div>
+    </div>
+    <div class="accordion-item">
+      <div class="accordion-title">
+        What is the "Crash" mechanic?
+        <span class="accordion-icon">
+          <svg
+            width="12"
+            height="12"
+            viewBox="0 0 12 12"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M10.5 6H6M6 6H1.5M6 6V1.5M6 6V10.5"
+              stroke="#EFBB31"
+              stroke-width="1.5"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+            />
+          </svg>
+        </span>
+      </div>
+      <div class="accordion-content">
+        It’s a unique feature where poor unit placement or overextension can
+        cause your army to collapse, removing units and exposing your tower.
+        Learn to manage space, tempo, and counter-pressure to avoid a crash.
+      </div>
+    </div>
+    <div class="accordion-item">
+      <div class="accordion-title">
+        Is Pal Go single-player or multiplayer?
+        <span class="accordion-icon">
+          <svg
+            width="12"
+            height="12"
+            viewBox="0 0 12 12"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M10.5 6H6M6 6H1.5M6 6V1.5M6 6V10.5"
+              stroke="#EFBB31"
+              stroke-width="1.5"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+            />
+          </svg>
+        </span>
+      </div>
+      <div class="accordion-content">
+        Both. You can enjoy a full single-player campaign, challenge AI in
+        roguelite stages, and battle real players in PvP mode.
+      </div>
+    </div>
+    <div class="accordion-item">
+      <div class="accordion-title">
+        Can I progress without PvP?
+        <span class="accordion-icon">
+          <svg
+            width="12"
+            height="12"
+            viewBox="0 0 12 12"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M10.5 6H6M6 6H1.5M6 6V1.5M6 6V10.5"
+              stroke="#EFBB31"
+              stroke-width="1.5"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+            />
+          </svg>
+        </span>
+      </div>
+      <div class="accordion-content">
+        Absolutely. PvP is optional but provides extra rewards and ranking
+        opportunities. You can focus purely on solo gameplay if you prefer.
+      </div>
+    </div>
+    <div class="accordion-item">
+      <div class="accordion-title">
+        How do I merge units?
+        <span class="accordion-icon">
+          <svg
+            width="12"
+            height="12"
+            viewBox="0 0 12 12"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M10.5 6H6M6 6H1.5M6 6V1.5M6 6V10.5"
+              stroke="#EFBB31"
+              stroke-width="1.5"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+            />
+          </svg>
+        </span>
+      </div>
+      <div class="accordion-content">
+        Drag and drop identical units onto each other. Once merged, they evolve
+        into a stronger version with better stats and abilities.
+      </div>
+    </div>
+    <div class="accordion-item">
+      <div class="accordion-title">
+        Can I undo a merge or move?
+        <span class="accordion-icon">
+          <svg
+            width="12"
+            height="12"
+            viewBox="0 0 12 12"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M10.5 6H6M6 6H1.5M6 6V1.5M6 6V10.5"
+              stroke="#EFBB31"
+              stroke-width="1.5"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+            />
+          </svg>
+        </span>
+      </div>
+      <div class="accordion-content">
+        No. Every move is permanent, so plan ahead! That’s part of the strategy.
+      </div>
+    </div>
+    <div class="accordion-item">
+      <div class="accordion-title">
+        What happens during a crash?
+        <span class="accordion-icon">
+          <svg
+            width="12"
+            height="12"
+            viewBox="0 0 12 12"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M10.5 6H6M6 6H1.5M6 6V1.5M6 6V10.5"
+              stroke="#EFBB31"
+              stroke-width="1.5"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+            />
+          </svg>
+        </span>
+      </div>
+      <div class="accordion-content">
+        You lose the affected row or segment of your defenses, and your energy
+        resets. It`s a tactical penalty but also a chance to rebuild with better
+        placement.
+      </div>
+    </div>
+    <div class="accordion-item">
+      <div class="accordion-title">
+        Do heroes matter in battle?
+        <span class="accordion-icon">
+          <svg
+            width="12"
+            height="12"
+            viewBox="0 0 12 12"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M10.5 6H6M6 6H1.5M6 6V1.5M6 6V10.5"
+              stroke="#EFBB31"
+              stroke-width="1.5"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+            />
+          </svg>
+        </span>
+      </div>
+      <div class="accordion-content">
+        Yes. Each hero has unique active and passive skills that affect battle
+        flow, energy gain, and unit support. Choosing the right hero is
+        essential for success.
+      </div>
+    </div>
+    <div class="accordion-item">
+      <div class="accordion-title">
+        What are "Energy Cores"?
+        <span class="accordion-icon">
+          <svg
+            width="12"
+            height="12"
+            viewBox="0 0 12 12"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M10.5 6H6M6 6H1.5M6 6V1.5M6 6V10.5"
+              stroke="#EFBB31"
+              stroke-width="1.5"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+            />
+          </svg>
+        </span>
+      </div>
+      <div class="accordion-content">
+        They`re earned through gameplay and used to power up merges, delay
+        crashes, or deploy emergency reinforcements in critical situations.
+      </div>
+    </div>
+    <div class="accordion-item">
+      <div class="accordion-title">
+        How do Pal Alliances work?
+        <span class="accordion-icon">
+          <svg
+            width="12"
+            height="12"
+            viewBox="0 0 12 12"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M10.5 6H6M6 6H1.5M6 6V1.5M6 6V10.5"
+              stroke="#EFBB31"
+              stroke-width="1.5"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+            />
+          </svg>
+        </span>
+      </div>
+      <div class="accordion-content">
+        Alliances are player guilds. Join one to participate in co-op events,
+        donate units, and earn alliance-based rewards.
+      </div>
+    </div>
+    <div class="accordion-item">
+      <div class="accordion-title">
+        Are there different unit types?
+        <span class="accordion-icon">
+          <svg
+            width="12"
+            height="12"
+            viewBox="0 0 12 12"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M10.5 6H6M6 6H1.5M6 6V1.5M6 6V10.5"
+              stroke="#EFBB31"
+              stroke-width="1.5"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+            />
+          </svg>
+        </span>
+      </div>
+      <div class="accordion-content">
+        Yes - melee tanks, ranged attackers, magic casters, aerial defenders,
+        and utility support units. Learning their synergies is key to survival.
+      </div>
+    </div>
+    <div class="accordion-item">
+      <div class="accordion-title">
+        Is there controller support?
+        <span class="accordion-icon">
+          <svg
+            width="12"
+            height="12"
+            viewBox="0 0 12 12"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M10.5 6H6M6 6H1.5M6 6V1.5M6 6V10.5"
+              stroke="#EFBB31"
+              stroke-width="1.5"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+            />
+          </svg>
+        </span>
+      </div>
+      <div class="accordion-content">
+        Yes, partial controller support is available for Android-compatible
+        devices and upcoming desktop/web versions.
+      </div>
+    </div>
   </div>
 </section>
-
-      <article class="badges">
-  <div class="container">
-    <ul class="badges-list">
-      <li class="badges-item">
-        <a
-          class="badges-link"
-          href="https://www.npmjs.com/package/vite-plugin-html-inject"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          HTML Inject
-        </a>
-      </li>
-      <li class="badges-item">
-        <a
-          class="badges-link"
-          href="https://www.npmjs.com/package/vite-plugin-full-reload"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Full Reload
-        </a>
-      </li>
-      <li class="badges-item">
-        <a
-          class="badges-link"
-          href="https://www.npmjs.com/package/postcss-sort-media-queries"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Sort Media Queries
-        </a>
-      </li>
-    </ul>
-  </div>
-</article>
 
     </main>
 
