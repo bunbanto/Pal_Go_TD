@@ -122,16 +122,22 @@
   }
   .dom-icon-wrapper {
     margin-left: 0;
-    margin-right: 300px;
+    margin-right: 100px;
   }
   .domination-icon {
     display: block;
   }
+  .domination-subtitle {
+    margin: 0 auto;
+  }
   .domination-text {
-    display: none;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 120%;
+    margin-bottom: 45px;
   }
   .dom-text-wrapper {
-    max-width: 500px;
+    max-width: 900px;
   }
   .domination-title {
     font-size: 56px;
@@ -187,7 +193,7 @@
     margin: 0;
   }
   .hidden {
-    display: list-item;
+    display: block;
   }
   .domination-list-item {
     font-weight: 600;
@@ -195,7 +201,6 @@
     line-height: 146%;
     text-align: right;
     min-width: 435px;
-    list-style-type: disc;
   }
   .domination-info {
     font-size: 30px;
