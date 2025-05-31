@@ -1,6 +1,6 @@
 .header {
   background-color: var(--dark-bg);
-  background-image: url(../img/hero-bcg-m.jpg);
+  background-image: url(/img/hero-bcg-m.jpg);
   min-width: 320px;
   background-repeat: no-repeat;
   background-size: cover;
@@ -8,7 +8,7 @@
 @media (min-resolution: 192dpi) {
   .header {
     background-color: var(--dark-bg);
-    background-image: url(../img/hero-bcg-m@2x.jpg);
+    background-image: url(/img/hero-bcg-m@2x.jpg);
   }
 }
 
@@ -44,6 +44,14 @@
   fill: var(--accent-mint);
   stroke: var(--accent-mint);
   width: 100%;
+}
+
+.open-icon:hover,
+.close-icon:hover,
+.open-icon:focus,
+.close-icon:focus {
+  fill: var(--accent-yellow);
+  stroke: var(--accent-yellow);
 }
 
 .open-icon[data-visible='false'],
@@ -188,6 +196,17 @@
   color: var(--accent-mint);
 }
 
+.hero-down-link:hover,
+.hero-down-link:focus {
+  border: 3px solid #fff;
+  color: #fff;
+}
+
+.hero-google-link:hover,
+.hero-google-link:focus {
+  color: var(--accent-yellow);
+}
+
 .hero-google-link {
   font-family: var(--font-family);
   font-weight: 500;
@@ -198,11 +217,23 @@
   flex-direction: row;
 }
 
+.hero-google-link:hover,
+.hero-google-link:focus {
+  color: var(--accent-mint);
+}
+
 .hero-google-icon {
   margin-left: 16px;
 }
 
 @media screen and (min-width: 1200px) {
+  .header {
+    background-color: var(--dark-bg);
+    background-image: url(/img/hero-bcg-d.jpg);
+    min-width: 1200px;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
   .header-nav {
     display: flex;
     flex-direction: row;
@@ -258,6 +289,7 @@
   .hero-wrapper {
     display: flex;
     flex-direction: row;
+    justify-content: center;
     gap: 150px;
     padding-top: 57px;
     margin-bottom: 320px;
@@ -325,6 +357,17 @@
   .hero-list-item {
     font-weight: 700;
     font-size: 80px;
+    line-height: 100%;
+  }
+  .hero-question {
+    font-family: var(--second-family);
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 167%;
+    color: var(--yeloow-2);
+    display: flex;
+    flex-direction: column;
+    margin-left: 700px;
   }
   .hero-download {
     gap: 35px;
@@ -346,14 +389,10 @@
     width: 30px;
     height: 30px;
   }
-  .hero-question {
-    font-family: var(--second-family);
-    font-weight: 700;
-    font-size: 24px;
-    line-height: 167%;
-    color: var(--yeloow-2);
-    display: flex;
-    flex-direction: column;
-    margin-left: 50%;
+}
+
+@media screen and (min-width: 1200px) and (min-resolution: 192dpi) {
+  .header {
+    background-image: url(/img/hero-bcg-d@2x.jpg);
   }
 }
