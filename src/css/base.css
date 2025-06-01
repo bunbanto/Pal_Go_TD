@@ -22,8 +22,10 @@ html {
 }
 body {
   background: linear-gradient(90deg, #226158 0%, #0d082c 51.16%);
-  font-family: var(--font-family);
-  color: var(--black);
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  display: flex;
+  flex-direction: column;
   min-width: 100vw;
   min-height: 100vh;
   margin: 0;
@@ -36,13 +38,11 @@ section {
 main {
   flex-grow: 1;
 }
-main:has(.back-link) {
-  text-align: center;
-}
-/* Styles for Desktop devices */
+
 @media screen and (min-width: 1200px) {
   body {
-    background: linear-gradient(91deg, #0c072c 0%, #226158 60.58%);
+    background: linear-gradient(91deg, #0c072c, #226158);
+    background-size: cover;
   }
 
   section {

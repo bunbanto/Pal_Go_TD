@@ -1,8 +1,5 @@
-/* .features {
+.swiper-wrapper {
   display: flex;
-  flex-direction: column;
-} */
-.swiper {
   position: relative;
   width: 100%;
 }
@@ -43,10 +40,6 @@
     display: flex;
     flex-direction: row;
   }
-
-  /* .features {
-    background: linear-gradient(146deg, #226158 32.18%, #0d082c 75.96%);
-  } */
 
   .features-header {
     display: flex;
