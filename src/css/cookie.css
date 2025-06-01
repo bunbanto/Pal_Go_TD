@@ -3,7 +3,7 @@
   flex-direction: column;
   align-items: center;
   gap: 18px;
-  background-image: url('../img/cookiebg.png');
+  background-image: url('../img/cookiembg.png');
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -58,6 +58,10 @@
 }
 
 @media (min-width: 1200px) {
+  .cookie-popup {
+    background-image: url('../img/cookiebg.png');
+  }
+
   .cookie-popup p {
     font-family: var(--second-family);
     max-width: 748px;

@@ -3,7 +3,9 @@
   position: relative;
   width: 100%;
 }
-
+.gamepad-icon {
+  display: none;
+}
 .title_features {
   display: flex;
   justify-content: center;
