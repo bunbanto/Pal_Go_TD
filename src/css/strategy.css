@@ -15,12 +15,6 @@
   gap: 30px;
 }
 
-.strategy-start {
-  display: flex;
-  flex-direction: column;
-  gap: 16px;
-}
-
 .strategy-text-wrapper {
   display: flex;
   flex-direction: column;
@@ -82,7 +76,12 @@
 
 @media screen and (min-width: 1200px) {
   .strategy-data {
-    gap: 68px;
+    gap: 34px;
+  }
+  .strategy-start {
+    display: flex;
+    flex-direction: row;
+    gap: 200px;
   }
   .strategy-icon-img {
     display: block;
