@@ -31,13 +31,7 @@
 .swiper {
   height: auto;
 }
-/* .screen-swiper {
-  display: flex;
-  flex-direction: row;
-  gap: 30px;
-  justify-content: center;
-  margin-bottom: 30px;
-} */
+
 .swiper-slide {
   display: flex !important;
 }
