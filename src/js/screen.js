@@ -1,7 +1,7 @@
 import Swiper from 'swiper';
-import { Pagination, Keyboard } from 'swiper/modules';
+import { Navigation, Keyboard } from 'swiper/modules';
 import 'swiper/css';
-import 'swiper/css/pagination';
+// import 'swiper/css/pagination';
 
 let swiperInstance = null;
 
@@ -20,19 +20,23 @@ function initSwiper() {
 
   if (isMobile && !swiperInstance) {
     setStaticView(false);
-    swiperInstance = new Swiper('.swiper', {
+    swiperInstance = new Swiper('#sc-swiper', {
       loop: true,
-      modules: [Pagination, Keyboard],
+      modules: [Navigation, Keyboard],
       slidesPerView: 1,
       spaceBetween: 20,
       keyboard: {
         enabled: true,
         onlyInViewport: true,
       },
-      pagination: {
-        el: '.swiper-pagination',
-        clickable: true,
+      navigation: {
+        nextEl: '[data-next="next"]',
+        prevEl: '[data-prev="prev"]',
       },
+      // pagination: {
+      //   el: '.swiper-pagination',
+      //   clickable: true,
+      // },
     });
   } else if (!isMobile && swiperInstance) {
     swiperInstance.destroy(true, true);
