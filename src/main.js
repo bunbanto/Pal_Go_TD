@@ -3,3 +3,4 @@ import './js/features';
 import './js/domination';
 import './js/faq';
 import './js/cookie';
+import './js/cta';
