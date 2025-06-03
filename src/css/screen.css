@@ -40,6 +40,7 @@
 } */
 .swiper-slide {
   display: flex !important;
+  flex-direction: column;
 }
 .slide-sc {
   display: flex;
