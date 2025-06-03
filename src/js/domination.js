@@ -1,39 +1,30 @@
 import Swiper from 'swiper';
 import { Navigation } from 'swiper/modules';
 import 'swiper/css';
+import 'swiper/css/navigation';
 
-new Swiper('.swiper-container', {
-  direction: 'horizontal',
-  loop: true,
-  navigation: {
-    nextEl: '.swiper-button-next',
-    prevEl: '.swiper-button-prev',
-  },
-  breakpoints: {
-    320: {
-      slidesPerView: 1,
-      spaceBetween: 500,
-    },
-  },
-});
+Swiper.use([Navigation]);
 
-let swiper;
-const initSwiper = () => {
-  if (window.innerWidth > 1200) {
-    swiper = new Swiper('.swiper-container', {
+let swiper = null;
+
+function domSwiper() {
+  const isMobile = window.matchMedia('(max-width: 1199.98px)').matches;
+
+  if (isMobile && !swiper) {
+    swiper = new Swiper('#dom-swiper', {
       slidesPerView: 1,
+      loop: true,
       navigation: {
-        nextEl: '.swiper-button-next',
-        prevEl: '.swiper-button-prev',
+        nextEl: '.dom-end',
+        prevEl: '.dom-start',
       },
+      spaceBetween: 20,
     });
-  } else {
-    if (swiper) {
-      swiper.destroy();
-      swiper = null;
-    }
+  } else if (!isMobile && swiper) {
+    swiper.destroy(true, true);
+    swiper = null;
   }
-};
+}
 
-window.addEventListener('resize', initSwiper);
-initSwiper();
+window.addEventListener('load', domSwiper);
+window.addEventListener('resize', domSwiper);
