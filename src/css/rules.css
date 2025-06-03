@@ -1,5 +1,8 @@
-#rules {
-  background-color: #fff;
+.rules {
+  background-color: #e2f3ef;
+  width: 100%;
+}
+.rules-container {
   font-family: var(--font-family);
   font-weight: 500;
   font-size: 16px;
@@ -78,13 +81,10 @@
 }
 
 @media screen and (min-width: 1200px) {
-  #rules {
-    background-color: #fff;
-    font-family: var(--font-family);
+  .rules-container {
     font-weight: 500;
     font-size: 28px;
     line-height: 136%;
-    color: var(--black);
     padding: 60px 115px;
     max-width: 1200px;
     margin: 0 auto;

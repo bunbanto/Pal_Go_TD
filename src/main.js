@@ -4,3 +4,4 @@ import './js/domination';
 import './js/screen';
 import './js/faq';
 import './js/cookie';
+import './js/cta';
