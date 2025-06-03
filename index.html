@@ -18,9 +18,9 @@
 
     <title>STP-9266</title>
     <script type="module" crossorigin src="/STP-9266/index.js"></script>
-    <link rel="modulepreload" crossorigin href="/STP-9266/assets/vendor-dX9NE-Sr.js">
-    <link rel="stylesheet" crossorigin href="/STP-9266/assets/vendor-Be9b3THL.css">
-    <link rel="stylesheet" crossorigin href="/STP-9266/assets/styles-CodjjM6R.css">
+    <link rel="modulepreload" crossorigin href="/STP-9266/assets/vendor-B1VTIvwy.js">
+    <link rel="stylesheet" crossorigin href="/STP-9266/assets/vendor-HdWFjXwp.css">
+    <link rel="stylesheet" crossorigin href="/STP-9266/assets/styles-8qkOIVuY.css">
   </head>
   <body>
     <header class="header" id="header">
@@ -327,22 +327,18 @@
         />
       </div>
       <div class="dom-text-wrapper">
-        <h2 class="domination-title">PvP Domination</h2>
-        <h3 class="domination-subtitle">One Arena. Two Players. No Mercy.</h3>
+        <div class="domination-head">
+          <h2 class="domination-title">PvP Domination</h2>
+          <h3 class="domination-subtitle">One Arena. Two Players. No Mercy.</h3>
+        </div>
         <p class="domination-text">
             Clash in real-time against global players in tense,
-            unforgiving PvP skirmishes: <span class="domination-span hidden">
-            elite merged troops Exploit their positioning and force a
-            crash</span>
-        </p>
+            unforgiving PvP skirmishes: </p>
       </div>
     </div>
 
-      <div class="dom-swiper swiper-container" data-swiper="true">
+      <div class="dom-swiper swiper-container" id="dom-swiper">
         <button type="button" class="dom-start" data-action="prev">
-          <svg class="dom-start-svg" width="20" height="10">
-            <use href="/STP-9266/assets/sprite-4kSAjFAD.svg#icon-arr_m_left"></use>
-          </svg>
         </button>
 
         <div class="dom-wrapper swiper-wrapper">
@@ -398,9 +394,6 @@
         </div>
 
         <button type="button" class="dom-end" data-action="next">
-          <svg class="dom-end-svg" width="20" height="10">
-            <use href="/STP-9266/assets/sprite-4kSAjFAD.svg#icon-arr_m_rigth"></use>
-          </svg>
         </button>
       </div>
     </div>
@@ -846,6 +839,10 @@
   </div>
 </section>
 
+      <section class="cta" id="cta">
+  <div class="container"></div>
+</section>
+
       <section class="contact">
   <div class="container">
     <div class="contact-start">
@@ -863,8 +860,10 @@
     <ul class="contact-list">
       <li class="contact-list-item">
         <ul class="contact-type">
-          <li class="contact-descr sign">📧</li>
-          <li class="contact-descr">Email:</li>
+          <li class="contact-descr">
+            <span class="contact-sign">📧 </span
+            ><span class="contact-descr-item"> Email:</span>
+          </li>
           <li class="contact-descr yellow">
             <a href="mailto:support@royalturborush.com"
               >support@royalturborush.com</a
@@ -874,8 +873,10 @@
       </li>
       <li class="contact-list-item">
         <ul class="contact-type">
-          <li class="contact-descr sign">📍</li>
-          <li class="contact-descr">Studio HQ:</li>
+          <li class="contact-descr sign">
+            <span class="contact-sign">📍</span
+            ><span class="contact-descr-item"> Studio HQ:</span>
+          </li>
           <li class="contact-descr yellow">
             <a href="https://www.google.com/maps/"
               >99 Arcane Tower Rd, Gameforge City</a
@@ -885,8 +886,10 @@
       </li>
       <li class="contact-list-item">
         <ul class="contact-type">
-          <li class="contact-descr sign">🕐</li>
-          <li class="contact-descr">Support Hours:</li>
+          <li class="contact-descr">
+            <span class="contact-sign">🕐</span
+            ><span class="contact-descr-item"> Support Hours:</span>
+          </li>
           <li class="contact-descr yellow">Mon–Fri, 9am–5pm GMT</li>
         </ul>
       </li>
@@ -894,7 +897,7 @@
   </div>
 </section>
 
-      <container class="popup">
+      <!-- <container class="popup">
   <div class="cookie-popup" id="cookiePopup">
     <p>
       We use cookies to improve your experience on our website. By browsing this
@@ -906,7 +909,7 @@
     </div>
   </div>
 </container>
-
+ -->
     </main>
 
     <footer class="footer">
