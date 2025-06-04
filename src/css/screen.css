@@ -79,7 +79,7 @@
   align-items: center;
   justify-content: center;
   width: 277px;
-  padding-bottom: 8px 0;
+  padding: 8px 0;
 }
 .text-wrap {
   font-family: var(--font-family);
@@ -133,11 +133,9 @@
     align-items: center;
     flex: 1 1 calc(50% - 20px);
   }
-  .swiper-button-next,
-  .swiper-button-prev {
-    display: none !important;
+  .div-btn {
+    display: none;
   }
-
   .screen-swiper.static-view {
     display: flex;
     flex-direction: column;

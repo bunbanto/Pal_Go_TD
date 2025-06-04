@@ -1,7 +1,6 @@
 import Swiper from 'swiper';
 import { Navigation, Keyboard } from 'swiper/modules';
 import 'swiper/css';
-// import 'swiper/css/pagination';
 
 let swiperInstance = null;
 
@@ -33,10 +32,6 @@ function initSwiper() {
         nextEl: '[data-next="next"]',
         prevEl: '[data-prev="prev"]',
       },
-      // pagination: {
-      //   el: '.swiper-pagination',
-      //   clickable: true,
-      // },
     });
   } else if (!isMobile && swiperInstance) {
     swiperInstance.destroy(true, true);
