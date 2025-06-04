@@ -3,7 +3,13 @@
   flex-direction: column;
   text-align: center;
 }
-
+.opt-div {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  width: 100%;
+}
 .opt-img-cont {
   display: flex;
   justify-content: center;
@@ -45,6 +51,7 @@
   min-width: unset;
   max-width: unset;
   box-sizing: border-box;
+  height: auto !important;
 }
 .text-opt {
   font-family: var(--font-family);
@@ -61,14 +68,14 @@
 }
 .div-btn-opt {
   position: absolute;
-  top: 50%;
+  /* top: 50%; */
   left: 0;
   width: 100%;
   display: flex;
   gap: 275px;
-  justify-content: center;
+  justify-content: space-around;
   align-items: center;
-  transform: translateY(-50%);
+  transform: translateY(-150%);
   z-index: 1;
 }
 .prev-opt,
