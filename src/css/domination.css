@@ -150,20 +150,22 @@
   .dom-wrapper {
     display: flex;
     flex-direction: column;
-    margin: 0 auto;
+
     min-width: 1000px;
     gap: 40px;
   }
+  #domination.swiper-slide {
+    margin: 0 auto;
+  }
   .dom-slide {
     flex-direction: row;
-    gap: 140px;
+    gap: 150px;
     margin-right: 0;
   }
   .dom-slide.slide-2 {
     display: flex !important;
     flex-direction: row-reverse !important;
-    justify-content: start;
-    gap: 140px;
+    justify-content: start !important;
   }
   .domination-wrap-img {
     display: flex;
