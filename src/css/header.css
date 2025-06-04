@@ -1,6 +1,11 @@
 .header {
   background-color: #000;
 }
+
+.header.container {
+  max-width: 320px;
+}
+
 .hero {
   background-image: url(/img/hero-bcg-m.jpg);
   width: 100vw;
@@ -158,12 +163,15 @@
   font-size: 50px;
   padding-left: 16px;
   color: #10deb1;
-  margin-bottom: 205px;
+  margin-bottom: 260px;
 }
 
 .hero-list {
-  text-align: end;
-  padding-right: 31px;
+  display: flex;
+  flex-direction: column;
+  align-items: end;
+  gap: 15px;
+  margin-right: 30px;
   margin-bottom: 50px;
 }
 
@@ -181,8 +189,7 @@
 .hero-download {
   display: flex;
   flex-direction: column;
-  margin-left: 89px;
-  padding-bottom: 88px;
+  margin-left: 75px;
 }
 
 .hero-down-link {
@@ -229,6 +236,12 @@
 }
 
 @media screen and (min-width: 1200px) {
+  .header.container {
+    max-width: 1200px;
+  }
+  .hero.container {
+    max-width: 1200px;
+  }
   .hero {
     background-image: url(/img/hero-bcg-d.jpg);
     min-width: 1200px;
@@ -293,7 +306,7 @@
     justify-content: center;
     gap: 150px;
     padding-top: 57px;
-    margin-bottom: 320px;
+    margin-bottom: 350px;
   }
   .hero-box {
     display: flex;
@@ -368,11 +381,12 @@
     color: var(--yeloow-2);
     display: flex;
     flex-direction: column;
-    margin-left: 700px;
+    margin-left: 600px;
   }
   .hero-download {
     gap: 35px;
     margin-bottom: 18px;
+    margin-left: 105;
   }
   .hero-down-link {
     border: 5px solid var(--accent-mint);

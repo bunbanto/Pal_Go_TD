@@ -50,7 +50,7 @@
 }
 
 .dom-wrapper {
-  display: block;
+  display: flex;
 }
 
 .dom-slide {
@@ -101,15 +101,16 @@
 }
 
 @media screen and (min-width: 1200px) {
+  .domination.container {
+    margin: 0, auto;
+  }
   .domination-area {
     display: flex;
     justify-content: start;
-    max-width: 1200px;
     margin-bottom: 24px;
   }
   .dom-icon-wrapper {
     margin-left: 0;
-    margin-right: 100px;
   }
   .domination-icon {
     display: block;
@@ -122,6 +123,7 @@
     flex-direction: column;
     gap: 36px;
     margin-bottom: 21px;
+    margin-left: 100px;
   }
   .domination-title {
     font-size: 56px;
@@ -140,6 +142,8 @@
   }
   .dom-swiper {
     display: flex;
+    margin: 0 auto;
+    justify-content: center;
     gap: 142px;
     min-width: 0;
   }
@@ -153,8 +157,9 @@
   .dom-slide {
     flex-direction: row;
     gap: 140px;
+    margin-right: 0;
   }
-  .dom-slide[data-slide='2'] {
+  .dom-slide.slide-2 {
     display: flex !important;
     flex-direction: row-reverse !important;
     justify-content: start;
