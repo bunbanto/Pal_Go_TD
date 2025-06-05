@@ -101,6 +101,7 @@
 }
 
 @media screen and (min-width: 1200px) {
+  
   .domination.container {
     margin: 0, auto;
   }
@@ -126,6 +127,7 @@
     margin-left: 100px;
   }
   .domination-title {
+    
     font-size: 56px;
   }
   .domination-subtitle {
