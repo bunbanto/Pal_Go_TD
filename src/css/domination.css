@@ -197,5 +197,6 @@
     line-height: 167%;
     max-width: 1000px;
     margin-top: 36px;
+    color: var(--accent-yellow);
   }
 }
