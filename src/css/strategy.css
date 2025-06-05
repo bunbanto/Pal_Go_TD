@@ -124,5 +124,6 @@
   .strategy-info {
     font-size: 30px;
     line-height: 167%;
+    color: var(--accent-yellow);
   }
 }
