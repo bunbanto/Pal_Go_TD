@@ -25,12 +25,8 @@
   color: var(--accent-yellow);
   margin-bottom: 16px;
 }
-.title-imgage {
-  border: 3px solid var(--accent-mint);
-border-radius: 5px;
-padding: 10px;
-width: 76px;
-height: 90px;
+.title-image {
+  display: none;
 }
 .title-img-opt {
   width: 204px;
@@ -42,9 +38,7 @@ height: 90px;
 }
 
 .opt-swiper {
-  /* display: flex;
-  flex-direction: row;
-  align-items: center; */
+  
   width: 100%;
 }
 
@@ -75,8 +69,7 @@ height: 90px;
 }
 .div-btn-opt {
   position: absolute;
-  /* top: 50%; */
-  left: 0;
+   left: 0;
   width: 100%;
   display: flex;
   gap: 275px;
@@ -107,6 +100,14 @@ height: 90px;
     width: 615px;
     height: 694px;
   }
+  .title-image {
+    display: block;
+    
+    border-radius: 5px;
+    padding: 10px;
+    width: 76px;
+    height: 90px;
+  }
   .title-img-opt {
     width: 100%;
     height: auto;
@@ -115,10 +116,10 @@ height: 90px;
     display: flex;
     flex-direction: column;
     align-items: center;
-    gap: 24px; /* відстань між елементами, змініть під свій дизайн */
+    gap: 24px;
     justify-content: center;
     align-items: flex-start;
-    /* width: 100%; */
+   
   }
   .slide-opt {
     display: block;
