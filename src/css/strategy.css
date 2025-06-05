@@ -81,7 +81,7 @@
   .strategy-start {
     display: flex;
     flex-direction: row;
-    gap: 200px;
+    gap: 370px;
   }
   .strategy-icon-img {
     display: block;
@@ -98,6 +98,7 @@
   }
   .strategy-list {
     gap: 31px;
+    margin: 0 auto;
   }
   .strategy-list-item {
     flex-direction: row;

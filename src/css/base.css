@@ -48,8 +48,4 @@ main {
   section {
     padding: 45px 0;
   }
-
-  section:last-child {
-    padding-bottom: 164px;
-  }
 }
