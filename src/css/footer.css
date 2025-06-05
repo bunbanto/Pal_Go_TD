@@ -2,9 +2,13 @@
   padding: 20px 0;
 }
 
+.footer-social {
+  padding: 0 15px;
+}
+
 .footer-list-icons {
   display: flex;
-  justify-content: center;
+  justify-content: start;
   gap: 47px;
   margin-bottom: 39px;
 }
@@ -26,6 +30,7 @@
   justify-content: space-between;
   align-items: end;
   gap: 82px;
+  padding: 0 15px;
 }
 
 .footer-list-terms {
@@ -94,7 +99,7 @@
   .footer-logo img {
     position: absolute;
     top: 118px;
-    left: 4px;
+    left: 24px;
     width: 76px;
     height: 90px;
   }
