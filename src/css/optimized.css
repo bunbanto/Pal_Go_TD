@@ -100,6 +100,11 @@
     width: 615px;
     height: 694px;
   }
+
+  .opt-div {
+    justify-content: flex-start;
+    gap: 300px
+  }
   .title-image {
     display: block;
     
