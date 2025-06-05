@@ -1,7 +1,5 @@
 .merge {
-  display: flex;
-  flex-direction: column;
-  gap: 12px;
+  text-align: center;
 }
 
 .merge-slide {
@@ -15,7 +13,6 @@
 }
 
 .merge-head {
-  max-width: 210px;
   display: flex;
   flex-direction: column;
   margin: 0 auto;
@@ -78,7 +75,6 @@
 @media screen and (min-width: 1200px) {
   .merge.container {
     margin: 0, auto;
-    max-width: 1000px;
   }
   .merge-start {
     display: flex;
@@ -86,14 +82,17 @@
     margin-bottom: 24px;
   }
   .merge-icon-wrapper {
-    margin-left: 0;
+    padding-left: 0;
   }
   .merge-icon-img {
     display: block;
   }
-  .merge-head {
-    margin-left: 200px;
+  .merge-text-wrapper {
     max-width: 1000px;
+  }
+  .merge-head {
+    margin-left: 180px;
+    gap: 36px;
   }
   .merge-title {
     font-size: 56px;

@@ -63,13 +63,14 @@
 @media screen and (min-width: 1200px) {
   .footer {
     position: relative;
-    /* max-width: 1000px; */
+  }
+  .container.footer {
+    padding-top: 80px;
   }
   .footer-list-icons {
     gap: 112px;
     margin-bottom: 92px;
     margin-left: 500px;
-    /* text-align: end; */
   }
   .social-icons {
     width: 35px;
@@ -93,7 +94,7 @@
   .footer-logo img {
     position: absolute;
     top: 118px;
-    left: 124px;
+    left: 4px;
     width: 76px;
     height: 90px;
   }
