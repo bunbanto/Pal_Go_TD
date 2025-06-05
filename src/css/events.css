@@ -34,7 +34,10 @@
   flex-direction: column;
   gap: 8px;
 }
-
+.event-img {
+  border: 3px solid var(--accent-mint);
+  border-radius: 50%;
+}
 .text-event {
   font-family: var(--font-family);
   font-weight: 500;
