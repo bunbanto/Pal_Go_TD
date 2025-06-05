@@ -1,11 +1,10 @@
-
 import Swiper from 'swiper';
 import { Navigation, Keyboard } from 'swiper/modules';
 import 'swiper/css';
 
 Swiper.use([Navigation, Keyboard]);
 
-const swiper = new Swiper('#reviews-swiper', {
+const swiper = new Swiper('#story-swiper', {
   loop: true,
   keyboard: {
     enabled: true,
