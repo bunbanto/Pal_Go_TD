@@ -1,7 +1,7 @@
 .story {
     display: flex;
     flex-direction: column;
-    text-align: center;
+    
   }
   
   .title-box {
@@ -51,7 +51,7 @@ margin: 16px 0;
     color: var(--yeloow-2);
     margin-bottom: 16px;
   }
-  .swiper {
+  /* .swiper {
     height: auto;
     position: relative;
   }
@@ -72,7 +72,7 @@ margin: 16px 0;
   .swiper-button-next,
   .swiper-button-prev {
     display: none !important;
-  }
+  } */
   .div-btn-story {
     position: absolute;
     top: 50%;
