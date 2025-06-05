@@ -11,6 +11,7 @@
 
 /* Sections style */
 @import url('./header.css');
+@import url('./hero.css');
 @import url('./features.css');
 @import url('./domination.css');
 @import url('./merge.css');
