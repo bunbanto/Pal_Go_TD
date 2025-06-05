@@ -19,7 +19,7 @@
 
 //   if (isMobile && !swiperInstance) {
 //     setStaticView(false);
-//     swiperInstance = new Swiper('#sc-swiper', {
+//     swiperInstance = new Swiper('#reviews-swiper', {
 //       loop: true,
 //       modules: [Navigation, Keyboard],
 //       slidesPerView: 1,
@@ -52,7 +52,7 @@ import 'swiper/css';
 
 Swiper.use([Navigation, Keyboard]);
 
-const swiper = new Swiper('#sc-swiper', {
+const swiper = new Swiper('#reviews-swiper', {
   loop: true,
   keyboard: {
     enabled: true,
@@ -70,7 +70,7 @@ const swiper = new Swiper('#sc-swiper', {
 
     1200: {
       slidesPerView: 3,
-      spaceBetween: 40,
+      spaceBetween: 104,
     },
   },
 });

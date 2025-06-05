@@ -4,5 +4,6 @@ import './js/domination';
 import './js/optimized';
 import './js/screen';
 import './js/faq';
+import './js/reviews';
 import './js/cookie';
 import './js/cta';
