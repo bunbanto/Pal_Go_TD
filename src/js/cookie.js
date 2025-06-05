@@ -1,7 +1,8 @@
 const popup = document.getElementById('cookiePopup');
 const buttons = document.querySelectorAll('.cookie-buttons .btn');
 
-if (localStorage.getItem('cookiesAccepted') === 'true') {
+// Перевіряємо будь-яке рішення користувача
+if (localStorage.getItem('cookiesAccepted') !== null) {
   popup.style.display = 'none';
 }
 
