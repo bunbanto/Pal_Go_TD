@@ -101,7 +101,7 @@ color: var(--yeloow-2);
   .strategy-start {
     display: flex;
     flex-direction: row;
-    gap: 370px;
+    gap: 280px;
   }
   .strategy-icon-img {
     display: block;
