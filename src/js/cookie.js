@@ -1,18 +1,23 @@
-const popup = document.getElementById('cookiePopup');
-const buttons = document.querySelectorAll('.cookie-buttons .btn');
+const popup = document.querySelector('[data-cookie-popup]');
+const acceptBtn = document.querySelector('[data-cookie-accept]');
+const declineBtn = document.querySelector('[data-cookie-decline]');
 
-// Перевіряємо будь-яке рішення користувача
-if (localStorage.getItem('cookiesAccepted') !== null) {
-  popup.style.display = 'none';
-}
+if (popup) {
+  if (localStorage.getItem('cookiesAccepted') !== null) {
+    popup.classList.add('hidden');
+  }
 
-buttons.forEach(button => {
-  button.addEventListener('click', () => {
-    if (button.classList.contains('accept')) {
+  if (acceptBtn) {
+    acceptBtn.addEventListener('click', () => {
       localStorage.setItem('cookiesAccepted', 'true');
-    } else if (button.classList.contains('decline')) {
+      popup.classList.add('hidden');
+    });
+  }
+
+  if (declineBtn) {
+    declineBtn.addEventListener('click', () => {
       localStorage.setItem('cookiesAccepted', 'false');
-    }
-    popup.style.display = 'none';
-  });
-});
+      popup.classList.add('hidden');
+    });
+  }
+}
