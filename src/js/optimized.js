@@ -1,11 +1,12 @@
 import Swiper from 'swiper';
-import { Navigation, Keyboard } from 'swiper/modules';
+import { Pagination, Navigation, Keyboard } from 'swiper/modules';
 import 'swiper/css';
+import 'swiper/css/pagination';
 
 let swiperInstance = null;
 
 function setStaticView(isStatic) {
-  const swiperEl = document.querySelector('.swiper-wrapper');
+  const swiperEl = document.querySelector('#opt-swiper');
   if (!swiperEl) return;
   if (isStatic) {
     swiperEl.classList.add('static-view');
@@ -21,7 +22,7 @@ function initSwiper() {
     setStaticView(false);
     swiperInstance = new Swiper('#opt-swiper', {
       loop: true,
-      modules: [Navigation, Keyboard],
+      modules: [Pagination, Navigation, Keyboard],
       slidesPerView: 1,
       spaceBetween: 50,
       keyboard: {
@@ -31,6 +32,10 @@ function initSwiper() {
       navigation: {
         nextEl: '[data-next="next-opt"]',
         prevEl: '[data-prev="prev-opt"]',
+      },
+      pagination: {
+        el: '.swiper-pagination',
+        clickable: true,
       },
     });
   } else if (!isMobile && swiperInstance) {

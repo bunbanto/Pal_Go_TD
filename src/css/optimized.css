@@ -53,6 +53,7 @@
   max-width: unset;
   box-sizing: border-box;
   height: auto !important;
+  margin-bottom: 28px;
 }
 .text-opt {
   font-family: var(--font-family);
