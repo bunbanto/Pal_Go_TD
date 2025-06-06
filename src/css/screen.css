@@ -133,7 +133,7 @@
   .wrap-img {
     border: 3px solid var(--accent-mint);
     border-radius: 5px;
-    width: 334px;
+    width: 260px !important;
   }
 
   .text-wrap {
@@ -143,7 +143,7 @@
     font-weight: 700;
     font-size: 24px;
     line-height: 167%;
-    max-width: 277px;
+    max-width: 260px;
     color: var(--yeloow-2);
     margin: 20px 0;
   }

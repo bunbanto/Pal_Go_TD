@@ -69,7 +69,7 @@
 }
 .div-btn-opt {
   position: absolute;
-   left: 0;
+   left: 10px;
   width: 100%;
   display: flex;
   gap: 275px;
@@ -140,6 +140,7 @@
     line-height: 136%;
     height: auto;
     width: 100%;
+    text-align: start;
   }
   .div-btn-opt {
     display: none;
