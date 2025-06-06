@@ -51,6 +51,7 @@ margin: 16px 0;
     color: var(--yeloow-2);
     margin-bottom: 16px;
   }
+  
   /* .swiper {
     height: auto;
     position: relative;
@@ -80,7 +81,7 @@ margin: 16px 0;
     width: 100%;
     display: flex;
     justify-content: space-between;
-    gap: 270px;
+    gap: 200px;
      align-items: center;
     transform: translateY(-50%);
     z-index: 1;
@@ -200,10 +201,11 @@ max-width: 1000px;
         max-width: 600px;
     }
     
-   
-   
+
     .div-btn-story {
       flex-direction: space-between;
+      top: 35%;
+      padding-left: 0;
     }
     .screen-swiper.static-view .swiper-button-next,
     .screen-swiper.static-view .swiper-button-prev {
