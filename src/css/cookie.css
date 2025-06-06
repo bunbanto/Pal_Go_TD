@@ -14,9 +14,7 @@
   z-index: 1000;
   text-align: center;
 }
-.cookie-popup.hidden {
-  display: none !important;
-}
+
 .cookie-popup p {
   font-family: var(--second-family);
   font-weight: 600;
