@@ -1,8 +1,8 @@
 import Swiper from 'swiper';
-import { Navigation, Keyboard } from 'swiper/modules';
+import { Pagination, Navigation, Keyboard } from 'swiper/modules';
 import 'swiper/css';
 
-Swiper.use([Navigation, Keyboard]);
+Swiper.use([Pagination, Navigation, Keyboard]);
 
 const swiper = new Swiper('#story-swiper', {
   loop: true,
@@ -13,6 +13,10 @@ const swiper = new Swiper('#story-swiper', {
   navigation: {
     nextEl: '[data-next="next"]',
     prevEl: '[data-prev="prev"]',
+  },
+  pagination: {
+    el: '.swiper-pagination',
+    clickable: true,
   },
   breakpoints: {
     320: {

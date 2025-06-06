@@ -31,11 +31,18 @@
 .swiper {
   height: auto;
   position: relative;
+  
 }
 
+.swiper-pagination {
+  --swiper-pagination-color: var(--accent-mint);
+  --swiper-pagination-bullet-inactive-color: #fff;
+  --swiper-pagination-bullet-size: 10px;
+}
 .swiper-slide {
   display: flex !important;
   flex-direction: column;
+ 
 }
 .slide-sc {
   display: flex;
@@ -88,6 +95,7 @@
   line-height: 143%;
   text-align: center;
   color: var(--accent-mint);
+  padding: 30px
 }
 
 @media screen and (min-width: 1200px) {

@@ -98,6 +98,7 @@
   text-align: center;
   color: var(--yeloow-2);
     max-width: 275px;
+    margin-bottom: 25px;
   }
   .colon-reviews {
     display: none;
