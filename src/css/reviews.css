@@ -57,7 +57,7 @@
     width: 100%;
     display: flex;
     justify-content: space-between;
-    gap: 238px;
+    gap: 270px;
      align-items: center;
     transform: translateY(-50%);
     z-index: 1;
@@ -97,7 +97,7 @@
   line-height: 150%;
   text-align: center;
   color: var(--yeloow-2);
-    max-width: 240px;
+    max-width: 275px;
   }
   .colon-reviews {
     display: none;
