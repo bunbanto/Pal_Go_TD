@@ -69,20 +69,23 @@
   .footer {
     position: relative;
   }
-  .container.footer {
+  .footer.container {
     padding-top: 80px;
+  }
+  .footer-social{
+    padding: 0 100px;
   }
   .footer-list-icons {
     gap: 112px;
     margin-bottom: 92px;
-    margin-left: 500px;
+   justify-content: end;
   }
   .social-icons {
     width: 35px;
     height: 35px;
   }
-  .footer-terms {
-    padding-right: 35px;
+  .footer-wrapper{
+    padding: 0 100px;
   }
   .footer-list-terms {
     flex-direction: row;
@@ -99,7 +102,7 @@
   .footer-logo img {
     position: absolute;
     top: 118px;
-    left: 24px;
+    left: 120px;
     width: 76px;
     height: 90px;
   }

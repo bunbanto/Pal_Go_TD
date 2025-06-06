@@ -107,10 +107,13 @@
     max-width: 1200px;
   }
   .hero {
+    background-color: #000;
     background-image: url(/img/hero-bcg-d.jpg);
-    min-width: 1200px;
+    width: 100vw;
+    min-height: 100vh;
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: auto 100%;
+    background-position: center;
   }
   .hero-wrapper {
     display: flex;
