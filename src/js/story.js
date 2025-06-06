@@ -22,7 +22,7 @@ const swiper = new Swiper('#story-swiper', {
 
     1200: {
       slidesPerView: 3,
-      spaceBetween: 30,
+      spaceBetween: 104,
     },
   },
 });
