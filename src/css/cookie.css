@@ -1,21 +1,30 @@
-.cookie-popup {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  gap: 18px;
-  background-image: url('../img/cookiembg.png');
-  background-size: cover;
+.popup {
+  position: fixed;
+  width: 100%;
+    bottom: 0;
+  top: auto;
+  background-image: url('../img/cookiebg.png');
+  background-color: var(--white);
   background-repeat: no-repeat;
   background-position: center;
-  position: fixed;
-  bottom: 0;
-  width: 100%;
-  padding: 20px;
+  background-size: cover;
   z-index: 1000;
-  text-align: center;
+  display: flex;
+      flex-direction: column;
+      align-items: center;
+  transition: transform 0.4s ease;
+  transform: translateY(100%);
+}
+[data-cookie-open='false'] {
+  transform: translateY(100%);
+}
+
+[data-cookie-open='true'] {
+  transform: translateY(0);
 }
 
 .cookie-popup p {
+  display: flex;
   font-family: var(--second-family);
   font-weight: 600;
   max-width: 275px;
@@ -59,7 +68,10 @@
 
 @media (min-width: 1200px) {
   .cookie-popup {
-    background-image: url('../img/cookiebg.png');
+    /* background-image: url('../img/cookiebg.png'); */
+    background-position: center;
+    background-size: cover;
+    
   }
 
   .cookie-popup p {
