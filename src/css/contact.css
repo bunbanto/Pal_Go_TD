@@ -47,8 +47,8 @@
   display: flex;
 }
 
-.contact-descr.yellow a {
-  white-space: nowrap;
+.contact-descr + .contact-descr.yellow a:hover {
+color: #fff;
 }
 
 @media screen and (min-width: 1200px) {
