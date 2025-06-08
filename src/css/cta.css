@@ -123,6 +123,7 @@
 
 .cta-google-icon {
   margin-left: 16px;
+  object-fit: contain;
 }
 
 .cta-down-text {
