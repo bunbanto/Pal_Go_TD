@@ -4,7 +4,7 @@
   top: 0;
   z-index: 900;
   min-height: 41px;
-  overflow-x: hidden;
+  /* overflow-x: hidden; */
 }
 
 .container-header {
@@ -73,7 +73,7 @@
 }
 
 .burger-menu {
-  position: fixed;
+  position: absolute;
   top: 0;
   right: 0;
   width: 100%;
